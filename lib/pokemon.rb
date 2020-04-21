@@ -12,4 +12,5 @@ class Pokemon
     
     def self.save
       
+    end
 end
