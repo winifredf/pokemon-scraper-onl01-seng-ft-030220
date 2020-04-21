@@ -4,10 +4,7 @@ class Pokemon
   attr_reader :id
   
     def initalize(keywords)
-      @id = id
-      @name = name 
-      @type = type
-      @db = db
+      @id, @name, @type, @db = keywords.values[0]
     end
     
     def self.save
